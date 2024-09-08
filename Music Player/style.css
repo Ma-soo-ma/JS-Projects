@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: rgb(87, 84, 85);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.Music-Player {
+    width: 400px;
+    background: rgb(211, 137, 162);
+    border-radius: 20px;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+
+}
+
+.circle {
+    background-color: white;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+    color: rgb(215, 78, 124);
+}
+
+.Music-Player img {
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid white;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+
+}
+
+.Music-Player h2 {
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.Music-Player p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#progress {
+    appearance: none;
+    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: rgb(223, 96, 138);
+    cursor: pointer;
+    margin: 40px 0;
+
+
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    border: 8px solid white;
+    border-radius: 50%;
+    background: rgb(223, 96, 138);
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: rgb(223, 96, 138);
+}
+
+.controls div {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+}
+
+.controls div:nth-child(2) {
+    background: rgb(223, 96, 138);
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:  #3C887E;
+
+}
+.container{
+    width: 30%;
+    min-height: 30vh;
+    margin: auto;
+    margin-top: 300px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+  
+}
+h2{
+
+
+    padding-top: 40px;
+}
+input{
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    outline: 0;
+   
+}
+button{
+    width: 90%;
+    margin:0px 20px 0px 20px;
+    padding: 15px;
+    color: black;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    background: #6bebda;
+}
+input:hover{
+    border-color: #6bebda; /* Change border color on hover */
+    box-shadow: 0 0 15px rgba(107, 194, 185, 0.7), /* Green glow */
+               0 0 20px rgba(119, 202, 208, 0.5),   /*outer glow */
+                inset 0 0 10px rgba(255, 255, 255, 0.5);
+}
+button:hover {
+    transform: scale(1.1); /* Enlarges the button */
+    box-shadow: 0 10px 20px rgba(107, 194, 185, 0.7); /* Adds shadow */
+  }
+#imgBox img{
+   position: relative;
+  
+   margin: 10px;
+  
+   left: 130px;
+
+   
+}

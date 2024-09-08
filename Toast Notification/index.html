@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Corrected Font Awesome CDN Link -->
+    <script src="https://kit.fontawesome.com/2a44bd905e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="buttons">
+        <button class="successBtn" onclick="showToast(successMsg)">Success</button>
+        <button class="errorBtn" onclick="showToast(errorMsg)">Error</button>
+        <button class="invalidBtn" onclick="showToast(invalidMsg)">Invalid</button>
+    </div>
+
+    <div id="toastBox"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
