@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:rgb(211, 89, 89);
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.input-box input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px
+    
+ 
+}
+.input-box img{
+    width: 30px;
+    position: absolute;
+    right: 600px;
+   
+}
